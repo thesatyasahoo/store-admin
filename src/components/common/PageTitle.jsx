@@ -4,12 +4,7 @@ import { Helmet } from "react-helmet";
 const PageTitle = ({ title, description }) => {
   return (
     <Helmet>
-      <title>
-        {" "}
-        {title
-          ? `${title} | React eCommerce Admin Dashboard`
-          : "Kachabazar | React eCommerce Admin Dashboard"}
-      </title>
+      <title> {title ? `${title}` : "Air Expert India"}</title>
       <meta
         name="description"
         content={
