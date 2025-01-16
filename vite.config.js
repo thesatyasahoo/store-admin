@@ -62,10 +62,10 @@ export default defineConfig({
         scope: ".",
         start_url: ".",
         id: ".",
-        short_name: "Kachabazar - E-Commerce Website",
-        name: "Kachabazar | React eCommerce Admin Dashboard",
+        short_name: "Air Expert India - E-Commerce Website",
+        name: "Air Expert India",
         description:
-          "Kachabazar : React Grocery & Organic Food Store e-commerce Admin Dashboard",
+          "Air Expert India : React Grocery & Organic Food Store e-commerce Admin Dashboard",
         icons: [
           {
             src: "favicon.ico",
