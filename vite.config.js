@@ -18,7 +18,11 @@ export default defineConfig({
     assetsDir: "@/assets", // Set the directory for the static assets
     // sourcemap: process.env.__DEV__ === "true",
     rollupOptions: {
-      // Additional Rollup configuration options if needed
+      output: {
+        manualChunks: {
+          vendor: ["react", "react-dom"], // Adjust based on your project
+        },
+      },
     },
     chunkSizeWarningLimit: 10 * 1024,
   },
