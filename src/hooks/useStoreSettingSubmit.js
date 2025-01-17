@@ -33,7 +33,6 @@ const useStoreSettingSubmit = (id) => {
 
   const onSubmit = async (data) => {
     // console.log("data", data);
-    return notifyError("This feature is disabled for demo!");
     try {
       setIsSubmitting(true);
       const settingData = {

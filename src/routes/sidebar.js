@@ -86,11 +86,11 @@ const sidebar = [
     icon: FiTarget,
     name: "OnlineStore",
     routes: [
-      {
-        name: "ViewStore",
-        path: "http://localhost:3000",
-        outside: "store",
-      },
+      // {
+      //   name: "ViewStore",
+      //   path: "http://localhost:3000",
+      //   outside: "store",
+      // },
 
       {
         path: "/store/customization",

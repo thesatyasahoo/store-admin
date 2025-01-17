@@ -27,7 +27,6 @@ const DeleteModal = ({ id, ids, setIsCheck, category, title, useParamId }) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleDelete = async () => {
-    return notifyError("This feature is disabled for demo!");
     try {
       setIsSubmitting(true);
       if (location.pathname === "/products") {
